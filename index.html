@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Grade Checker</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="grade-wrapper">
+    <h1>Enter your grades</h1>
+    <form id="container">
+        <div id="row-wrapper">
+            <div class="row">
+                <label>Maths</label>
+                <input type="number" placeholder="Maths" id="maths" name="fMath">
+                <span id="errorMath" class="error"></span>
+            </div>
+            <div class="row">
+                <label>English</label>
+                <input type="number" placeholder="English" id="eng" name="fEng">
+                <span id="errorEng" class="error"></span>
+            </div>
+            <div class="row">
+                <label>Science</label>
+                <input type="number" placeholder="Science" id="sci" name="fSci">
+                <span id="errorSci" class="error"></span>
+            </div>
+            <div class="row">
+                <label>History</label>
+                <input type="number" placeholder="History" id="his" name="fHis">
+                <span id="errorHis" class="error"></span>
+            </div>
+            <div class="row">
+                <label>Geography</label>
+                <input type="number" placeholder="Geography" id="geo" name="fGeo">
+                <span id="errorGeo" class="error"></span>
+            </div>
+        </div>
+        <button type="submit" id="submitBtn">Calculate</button>
+    </form>
+    <p id="result"></p>
+    <p></p>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
